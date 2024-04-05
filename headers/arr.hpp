@@ -1,13 +1,19 @@
-//arrays - P. Ahrenkiel
+// arrays - P. Ahrenkiel
 
 #ifndef _ARR_
 #define _ARR_
 
-extern int arr_err;
+#include <iostream>
 
+namespace arr {
+extern int arr_err;
 int check_arr_err();
 void clear_arr_err();
 
+} // namespace arr
+
+#include "mth.hpp"
+#include "trg.hpp"
 #include "arr1.hpp"
 #include "arr2.hpp"
 #include "arr3.hpp"

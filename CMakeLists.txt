@@ -32,6 +32,7 @@ endif ()
 
 add_subdirectory(headers)
 add_subdirectory(sources)
+add_subdirectory(vendor)
 
 if (${PROJECT_NAME}_BUILD_TESTING)
     add_subdirectory(test)

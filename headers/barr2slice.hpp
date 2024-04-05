@@ -5,38 +5,43 @@
 
 #include <iostream>
 
-#include "tlbx.hpp"
-
 #ifndef _ARR2SLICE_
 #include "arr2slice.hpp"
 #endif
 
-class barr2;
+namespace arr {
+    class barr2;
 
-typedef arr2slice<bool> bool_arr2slice;
+    typedef arr2slice<bool> bool_arr2slice;
 
 //
-class barr2slice:public bool_arr2slice
-{
-private:
-	
-	public:
-	barr2slice(barr2 *A,const std::size_t iDim,const std::size_t iIndex):bool_arr2slice(A,iDim,iIndex){}
-	barr2slice(const bool_arr2slice &A):bool_arr2slice(A.source(),A.dim(),A.index()){}
-	
-	barr2 operator|(const barr2slice &A) const;
-	barr2 operator&(const barr2slice &A) const;
+    class barr2slice : public bool_arr2slice {
+    private:
 
-	void operator=(const barr2 &A);
-	void operator|=(const barr2 &A);
-	void operator&=(const barr2 &A);
+    public:
+        barr2slice(barr2 *A, const std::size_t iDim, const std::size_t iIndex) : bool_arr2slice(A, iDim, iIndex) {}
 
-	void operator|=(const bool x);
-	void operator&=(const bool x);
-	void operator=(const bool x);
-	
-	bool hasTrue()const;
-	bool hasFalse()const;
-};
+        barr2slice(const bool_arr2slice &A) : bool_arr2slice(A.source(), A.dim(), A.index()) {}
 
+        barr2 operator|(const barr2slice &A) const;
+
+        barr2 operator&(const barr2slice &A) const;
+
+        void operator=(const barr2 &A);
+
+        void operator|=(const barr2 &A);
+
+        void operator&=(const barr2 &A);
+
+        void operator|=(const bool x);
+
+        void operator&=(const bool x);
+
+        void operator=(const bool x);
+
+        bool hasTrue() const;
+
+        bool hasFalse() const;
+    };
+}
 #endif

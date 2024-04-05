@@ -3,10 +3,9 @@
 #include <cstdlib>
 #include <math.h>
 
-#include "tlbx.hpp"
 #include "arr.hpp"
 
-using namespace std;
+namespace arr {
 
 //
 darr2::darr2(const darr2sub &A):double_arr2(A){}
@@ -113,4 +112,5 @@ void darr2sub::operator=(const double &x)
 	for(std::size_t i=0;i<m_nRows;i++)
 		for(std::size_t j=0;j<m_nCols;j++)
 			at(i,j)=x;
+}
 }

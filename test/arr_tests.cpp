@@ -8,7 +8,6 @@
 #include <filesystem>
 
 // vendor
-#include <fmt/format.h>
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
 

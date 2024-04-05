@@ -1,4 +1,6 @@
 set(public_headers
+		mth.hpp
+		trg.hpp
 		arr.hpp
         arr1.hpp
         arr2.hpp
