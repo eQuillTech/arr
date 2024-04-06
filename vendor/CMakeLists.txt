@@ -1,3 +1,5 @@
+include(initialize-submodules)
+initialize_submodules()
 
 # googletest library
 if (${PROJECT_NAME}_BUILD_TESTING AND NOT TARGET gtest)
