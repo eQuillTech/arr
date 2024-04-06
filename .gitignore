@@ -1,3 +1,8 @@
+build/
+builds/
+.idea/
+.DS_Store
+
 # Prerequisites
 *.d
 
