@@ -7,8 +7,8 @@
 #include <sstream>
 #include <vector>
 
-#include "../headers/arr.hpp"
-#include "../headers/mth.hpp"
+#include "arr.hpp"
+#include "../tlbx/mth.hpp"
 
 namespace examples {
 

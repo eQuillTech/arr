@@ -10,9 +10,9 @@
 // vendor
 #include <gtest/gtest.h>
 
-#include "../headers/arr.hpp"
-#include "../headers/mth.hpp"
-#include "../headers/trg.hpp"
+#include "../src/arr.hpp"
+#include "../src/tlbx/mth.hpp"
+#include "../src/tlbx/trg.hpp"
 
 /*
  *
