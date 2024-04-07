@@ -1,5 +1,4 @@
-/* Copyright (c) 2023 Big Ladder Software LLC. All rights reserved.
- * See the LICENSE file for additional terms and conditions. */
+// array examples - P. Ahrenkiel (2024)
 
 #include <filesystem>
 #include <fstream>
@@ -12,12 +11,12 @@
 
 namespace examples {
 
-void doThing(){
+void example1(){
 
 	arr::darr1 d1({1,2,3});
 	std::cout<<d1<<"\n";
 
-	arr::darr2 d2({{4,5,6},{1,2,3}});
+	arr::darr2 d2({{4,5,6},{1,7,2,3}});
 	std::cout<<d2<<"\n";
 	
 	arr::darr2 M=arr::darr2::zero(5,6);
@@ -35,7 +34,6 @@ void doThing(){
 	M(1,0,1,3)=0.;
 	std::cout<<M<<"\n";
 
-
 	for(size_t i=0;i<M.size(0);i++)
 	{
 		M.row(i)=i;
@@ -51,6 +49,6 @@ void doThing(){
 
 int main(int /*argc*/, char* /*argv*/[])
 {
-	examples::doThing();
+	examples::example1();
 	return 0;
 }

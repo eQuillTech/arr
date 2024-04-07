@@ -1,5 +1,4 @@
-/* Copyright (c) 2023 Big Ladder Software LLC. All rights reserved.
- * See the LICENSE file for additional terms and conditions. */
+// test-main examples - P. Ahrenkiel (2024)
 
 // Vendor
 #include <gtest/gtest.h>

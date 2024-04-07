@@ -48,6 +48,7 @@ arr2<data_type>::arr2(std::initializer_list<std::initializer_list<data_type>> A)
 	 		m_nCols = aRow.size();
 		if(aRow.size() < m_nCols)
 			m_nCols = aRow.size();
+		first = false;
 		++m_nRows;
 	}
 	m_a = std::unique_ptr<data_type[]>(new data_type[size()]);
