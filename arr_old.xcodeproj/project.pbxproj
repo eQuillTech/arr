@@ -1,0 +1,1881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3F4820E6A84AFEA7177661 /* examples.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0632AE8581742A2AFCD8D2D /* examples.cpp */; };
+		1A73AFCFB2A246A2B3A95AF0 /* barr2slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7D5F150411547F4907F51F2 /* barr2slice.cpp */; };
+		246049FC97664C09825C0EA5 /* darr2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9449087713224019A878BE8F /* darr2.cpp */; };
+		2678C72F69234F8F91CF08BD /* darr2sub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2E0C5FB955F4111AD7D3684 /* darr2sub.cpp */; };
+		43BAD4B85D054E1FA07CF855 /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40F8321CF41540F1AFAC9E9E /* gtest-all.cc */; };
+		4E839B341EE1442DA7D84D40 /* barr2sub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8140CAFBEAB4FF283A3AF50 /* barr2sub.cpp */; };
+		594D8EB6393D45909963ED50 /* arr_tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC5F5E59695416AAB9CEFD0 /* arr_tests.cpp */; };
+		8641E82318B44C14833EF84F /* darr1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 355F30FB92DD4C64BB8DF5B3 /* darr1.cpp */; };
+		9B88EA202CC73622003B1AB3 /* mth.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B88E9F32CC728AC003B1AB3 /* mth.hpp */; };
+		9B88EA212CC73622003B1AB3 /* str.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B88E9F42CC728AC003B1AB3 /* str.hpp */; };
+		9B88EA222CC73622003B1AB3 /* trg.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B88E9F52CC728AC003B1AB3 /* trg.hpp */; };
+		9B88EA242CC73622003B1AB3 /* mth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B88E9F82CC728AC003B1AB3 /* mth.cpp */; };
+		9B88EA252CC73622003B1AB3 /* str.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B88E9F92CC728AC003B1AB3 /* str.cpp */; };
+		9B88EA262CC73622003B1AB3 /* trg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B88E9FA2CC728AC003B1AB3 /* trg.cpp */; };
+		9B88EA272CC73622003B1AB3 /* tlbx.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B88E9FC2CC728AC003B1AB3 /* tlbx.hpp */; };
+		9B88EA282CC73675003B1AB3 /* arr1.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 70DAE857D0E74C2BA5A40213 /* arr1.hpp */; };
+		9B88EA292CC73675003B1AB3 /* arr1.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 422197B060D4433F896B5304 /* arr1.hpp */; };
+		9B88EA2A2CC73675003B1AB3 /* arr2.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A37E927A8E54292B995D432 /* arr2.hpp */; };
+		9B88EA2B2CC73675003B1AB3 /* arr2slice.hpp in Sources */ = {isa = PBXBuildFile; fileRef = B1188DA5085B4F2DB300C268 /* arr2slice.hpp */; };
+		9B88EA2C2CC73675003B1AB3 /* arr2sub.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 525AF1CF69AB4D7680E4E81F /* arr2sub.hpp */; };
+		9B88EA2D2CC73675003B1AB3 /* arr3.hpp in Sources */ = {isa = PBXBuildFile; fileRef = AE210D9CE2934DA3B4E68547 /* arr3.hpp */; };
+		9B88EA2E2CC73675003B1AB3 /* barr1.hpp in Sources */ = {isa = PBXBuildFile; fileRef = AA0CAF6658C044C1B5F520F9 /* barr1.hpp */; };
+		9B88EA2F2CC73675003B1AB3 /* barr2.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E1F64B19042F29188A073 /* barr2.hpp */; };
+		9B88EA302CC73675003B1AB3 /* barr2slice.hpp in Sources */ = {isa = PBXBuildFile; fileRef = DE48AA70FD194C18A2BDC27F /* barr2slice.hpp */; };
+		9B88EA312CC73675003B1AB3 /* barr2sub.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B38E189851241CD83D163D8 /* barr2sub.hpp */; };
+		9B88EA322CC73675003B1AB3 /* barr3.hpp in Sources */ = {isa = PBXBuildFile; fileRef = D6B760168DD34586BEED10B5 /* barr3.hpp */; };
+		9B88EA332CC73675003B1AB3 /* darr1.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7067FD7974F76A3508A3B /* darr1.hpp */; };
+		9B88EA342CC73675003B1AB3 /* darr2.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA1951C39F4F75B661EF1E /* darr2.hpp */; };
+		9B88EA352CC73675003B1AB3 /* darr2slice.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2338FF927D477F8917F134 /* darr2slice.hpp */; };
+		9B88EA362CC73675003B1AB3 /* darr2sub.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 368CA27BC00A461FB2A9AB9A /* darr2sub.hpp */; };
+		9B88EA372CC73675003B1AB3 /* uiarr1.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 91A1B06140474E049BC2DBCB /* uiarr1.hpp */; };
+		9B88EA382CC73675003B1AB3 /* uiarr2.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B0B4122261426F8FC40633 /* uiarr2.hpp */; };
+		9B88EA3A2CC7377E003B1AB3 /* arr.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B88EA392CC7377E003B1AB3 /* arr.hpp */; };
+		9B88EA3B2CC9CB80003B1AB3 /* libarr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C63A5C08B34A6796D105AC /* libarr.a */; };
+		9B88EA442CC9CB80003B1AB3 /* libtlbx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD9E54DD8334D4192429194 /* libtlbx.a */; };
+		9BE96F902CD3004C00F40FC1 /* arr.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B88EA392CC7377E003B1AB3 /* arr.hpp */; };
+		9BE96F932CD4303100F40FC1 /* libtlbx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD9E54DD8334D4192429194 /* libtlbx.a */; };
+		B4CDA9B9DAB74FA595CD8673 /* darr2slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D821D02CF994DA497EC35FF /* darr2slice.cpp */; };
+		B5DAB9C01AF444979BAC5C52 /* barr1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B111159734A74038B3420B2C /* barr1.cpp */; };
+		BBE9E9E1B5714BD1988076CB /* uiarr2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D862391011B4BF287860130 /* uiarr2.cpp */; };
+		C64DA3649BA14AA7A40D38F8 /* gtest_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ABEACB62D48259188268E /* gtest_main.cc */; };
+		D278F8B6929048AF8839F3D3 /* test-main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCB1D276C04FC784D930C1 /* test-main.cpp */; };
+		DA0C65452BFC4C8A8DA72459 /* barr2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78C8E1D1C5534C4EBB92ACC3 /* barr2.cpp */; };
+		DC55EE2215054368861B539B /* uiarr1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B5CBBB91D44C5BDD5B176 /* uiarr1.cpp */; };
+		E078765304264F91B9628FB3 /* barr3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EED5A02F2704F419BD1B447 /* barr3.cpp */; };
+		E5EE090DA46D4E0E8F877F23 /* arr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6023C2A334534E168617C500 /* arr.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DE965D85C004195A0782F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07438249ECED455394983957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E04DE608131C405BABB59A77;
+			remoteInfo = arr;
+		};
+		2B4058EE092D4692A75F1B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07438249ECED455394983957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FE4845F6D040E79DC45393;
+			remoteInfo = tlbx;
+		};
+		3F598C9E8FAB4C17AED191E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07438249ECED455394983957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E04DE608131C405BABB59A77;
+			remoteInfo = arr;
+		};
+		4287256D4AA04091A6FCBDBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07438249ECED455394983957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C55E20202A1478D81776D30;
+			remoteInfo = gtest;
+		};
+		6271CD0FA9FC4B60BEECB66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07438249ECED455394983957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C55E20202A1478D81776D30;
+			remoteInfo = gtest;
+		};
+		9B88EA3C2CC9CB80003B1AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07438249ECED455394983957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E04DE608131C405BABB59A77;
+			remoteInfo = arr;
+		};
+		9B88EA452CC9CB80003B1AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07438249ECED455394983957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FE4845F6D040E79DC45393;
+			remoteInfo = tlbx;
+		};
+		F1D40D279DF646059E581EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07438249ECED455394983957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FE4845F6D040E79DC45393;
+			remoteInfo = tlbx;
+		};
+		FF7AC930D1CC4454826B2D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07438249ECED455394983957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FE4845F6D040E79DC45393;
+			remoteInfo = tlbx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A37E927A8E54292B995D432 /* arr2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = arr2.hpp; path = headers/arr2.hpp; sourceTree = SOURCE_ROOT; };
+		0DCA1951C39F4F75B661EF1E /* darr2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = darr2.hpp; path = headers/darr2.hpp; sourceTree = SOURCE_ROOT; };
+		26C63A5C08B34A6796D105AC /* libarr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libarr.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		33755D4D658647198B13BB67 /* arr_tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = arr_tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		355F30FB92DD4C64BB8DF5B3 /* darr1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = darr1.cpp; path = sources/darr1.cpp; sourceTree = SOURCE_ROOT; };
+		368CA27BC00A461FB2A9AB9A /* darr2sub.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = darr2sub.hpp; path = headers/darr2sub.hpp; sourceTree = SOURCE_ROOT; };
+		3AB497397B7E4E349BC7D6C8 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = vendor/googletest/googletest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3B2338FF927D477F8917F134 /* darr2slice.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = darr2slice.hpp; path = headers/darr2slice.hpp; sourceTree = SOURCE_ROOT; };
+		3D6E1F64B19042F29188A073 /* barr2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = barr2.hpp; path = headers/barr2.hpp; sourceTree = SOURCE_ROOT; };
+		3DD9E54DD8334D4192429194 /* libtlbx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtlbx.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F8321CF41540F1AFAC9E9E /* gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "vendor/googletest/googletest/src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+		422197B060D4433F896B5304 /* arr1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = arr1.hpp; path = headers/arr1.hpp; sourceTree = SOURCE_ROOT; };
+		45C2AFF03594493E881B1955 /* libgtest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EED5A02F2704F419BD1B447 /* barr3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = barr3.cpp; path = sources/barr3.cpp; sourceTree = SOURCE_ROOT; };
+		4FB7067FD7974F76A3508A3B /* darr1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = darr1.hpp; path = headers/darr1.hpp; sourceTree = SOURCE_ROOT; };
+		4FC5F5E59695416AAB9CEFD0 /* arr_tests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arr_tests.cpp; path = test/arr_tests.cpp; sourceTree = SOURCE_ROOT; };
+		525AF1CF69AB4D7680E4E81F /* arr2sub.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = arr2sub.hpp; path = headers/arr2sub.hpp; sourceTree = SOURCE_ROOT; };
+		5505DF37CF8C4CD3AF60A8E8 /* libgtest_main.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_main.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D862391011B4BF287860130 /* uiarr2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uiarr2.cpp; path = sources/uiarr2.cpp; sourceTree = SOURCE_ROOT; };
+		6023C2A334534E168617C500 /* arr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arr.cpp; path = sources/arr.cpp; sourceTree = SOURCE_ROOT; };
+		6B38E189851241CD83D163D8 /* barr2sub.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = barr2sub.hpp; path = headers/barr2sub.hpp; sourceTree = SOURCE_ROOT; };
+		70DAE857D0E74C2BA5A40213 /* arr1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = arr1.hpp; sourceTree = "<group>"; };
+		73B0B4122261426F8FC40633 /* uiarr2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = uiarr2.hpp; path = headers/uiarr2.hpp; sourceTree = SOURCE_ROOT; };
+		78C8E1D1C5534C4EBB92ACC3 /* barr2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = barr2.cpp; path = sources/barr2.cpp; sourceTree = SOURCE_ROOT; };
+		7D4ABEACB62D48259188268E /* gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = vendor/googletest/googletest/src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
+		7D821D02CF994DA497EC35FF /* darr2slice.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = darr2slice.cpp; path = sources/darr2slice.cpp; sourceTree = SOURCE_ROOT; };
+		8D3B5CBBB91D44C5BDD5B176 /* uiarr1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uiarr1.cpp; path = sources/uiarr1.cpp; sourceTree = SOURCE_ROOT; };
+		91A1B06140474E049BC2DBCB /* uiarr1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = uiarr1.hpp; path = headers/uiarr1.hpp; sourceTree = SOURCE_ROOT; };
+		9449087713224019A878BE8F /* darr2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = darr2.cpp; path = sources/darr2.cpp; sourceTree = SOURCE_ROOT; };
+		9B88E9F32CC728AC003B1AB3 /* mth.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mth.hpp; sourceTree = "<group>"; };
+		9B88E9F42CC728AC003B1AB3 /* str.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = str.hpp; sourceTree = "<group>"; };
+		9B88E9F52CC728AC003B1AB3 /* trg.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = trg.hpp; sourceTree = "<group>"; };
+		9B88E9F82CC728AC003B1AB3 /* mth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mth.cpp; sourceTree = "<group>"; };
+		9B88E9F92CC728AC003B1AB3 /* str.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = str.cpp; sourceTree = "<group>"; };
+		9B88E9FA2CC728AC003B1AB3 /* trg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trg.cpp; sourceTree = "<group>"; };
+		9B88E9FC2CC728AC003B1AB3 /* tlbx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = tlbx.hpp; path = tlbx/tlbx.hpp; sourceTree = SOURCE_ROOT; };
+		9B88EA392CC7377E003B1AB3 /* arr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = arr.hpp; sourceTree = "<group>"; };
+		AA0CAF6658C044C1B5F520F9 /* barr1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = barr1.hpp; path = headers/barr1.hpp; sourceTree = SOURCE_ROOT; };
+		AB93E5D9E8EB476488D92209 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = test/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AE210D9CE2934DA3B4E68547 /* arr3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = arr3.hpp; path = headers/arr3.hpp; sourceTree = SOURCE_ROOT; };
+		B111159734A74038B3420B2C /* barr1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = barr1.cpp; path = sources/barr1.cpp; sourceTree = SOURCE_ROOT; };
+		B1188DA5085B4F2DB300C268 /* arr2slice.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = arr2slice.hpp; path = headers/arr2slice.hpp; sourceTree = SOURCE_ROOT; };
+		B3F35812D5344FE5BF4CD012 /* examples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = examples; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74A052346084BBEB93C8AD3 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = examples/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B7D5F150411547F4907F51F2 /* barr2slice.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = barr2slice.cpp; path = sources/barr2slice.cpp; sourceTree = SOURCE_ROOT; };
+		B9BD3151C72F4C6B871C12B0 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = vendor/googletest/googletest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C2E0C5FB955F4111AD7D3684 /* darr2sub.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = darr2sub.cpp; path = sources/darr2sub.cpp; sourceTree = SOURCE_ROOT; };
+		CCDCB1D276C04FC784D930C1 /* test-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "test-main.cpp"; path = "test/test-main.cpp"; sourceTree = SOURCE_ROOT; };
+		D6B760168DD34586BEED10B5 /* barr3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = barr3.hpp; path = headers/barr3.hpp; sourceTree = SOURCE_ROOT; };
+		D8140CAFBEAB4FF283A3AF50 /* barr2sub.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = barr2sub.cpp; path = sources/barr2sub.cpp; sourceTree = SOURCE_ROOT; };
+		DE48AA70FD194C18A2BDC27F /* barr2slice.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = barr2slice.hpp; path = headers/barr2slice.hpp; sourceTree = SOURCE_ROOT; };
+		E0632AE8581742A2AFCD8D2D /* examples.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = examples.cpp; path = examples/examples.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311EA54D2AB141DD95E32D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE96F932CD4303100F40FC1 /* libtlbx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6B641F811646FA9D5941AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886161D7426F4FAEACA4C1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988012517D5446BDAF08BA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7124997984D4946B31BF3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16E3CB842DD40179F74D7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B88EA442CC9CB80003B1AB3 /* libtlbx.a in Frameworks */,
+				9B88EA3B2CC9CB80003B1AB3 /* libarr.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E64B51D78BD4CE49499FE89 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				40F8321CF41540F1AFAC9E9E /* gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4E75DDEE29454901A2DB96B6 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				721F08AA14244472A92132E8 /* Source Files */,
+				B74A052346084BBEB93C8AD3 /* CMakeLists.txt */,
+			);
+			name = examples;
+			sourceTree = "<group>";
+		};
+		4E8537361673436A84764815 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				1E64B51D78BD4CE49499FE89 /* Source Files */,
+				B9BD3151C72F4C6B871C12B0 /* CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+		694388DF16EF44F8BFF688C1 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				70DAE857D0E74C2BA5A40213 /* arr1.hpp */,
+				422197B060D4433F896B5304 /* arr1.hpp */,
+				0A37E927A8E54292B995D432 /* arr2.hpp */,
+				B1188DA5085B4F2DB300C268 /* arr2slice.hpp */,
+				525AF1CF69AB4D7680E4E81F /* arr2sub.hpp */,
+				AE210D9CE2934DA3B4E68547 /* arr3.hpp */,
+				AA0CAF6658C044C1B5F520F9 /* barr1.hpp */,
+				3D6E1F64B19042F29188A073 /* barr2.hpp */,
+				DE48AA70FD194C18A2BDC27F /* barr2slice.hpp */,
+				6B38E189851241CD83D163D8 /* barr2sub.hpp */,
+				D6B760168DD34586BEED10B5 /* barr3.hpp */,
+				4FB7067FD7974F76A3508A3B /* darr1.hpp */,
+				0DCA1951C39F4F75B661EF1E /* darr2.hpp */,
+				3B2338FF927D477F8917F134 /* darr2slice.hpp */,
+				368CA27BC00A461FB2A9AB9A /* darr2sub.hpp */,
+				91A1B06140474E049BC2DBCB /* uiarr1.hpp */,
+				73B0B4122261426F8FC40633 /* uiarr2.hpp */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		721F08AA14244472A92132E8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0632AE8581742A2AFCD8D2D /* examples.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7ED1F332D72E42BFA6197FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C63A5C08B34A6796D105AC /* libarr.a */,
+				33755D4D658647198B13BB67 /* arr_tests */,
+				B3F35812D5344FE5BF4CD012 /* examples */,
+				45C2AFF03594493E881B1955 /* libgtest.a */,
+				5505DF37CF8C4CD3AF60A8E8 /* libgtest_main.a */,
+				3DD9E54DD8334D4192429194 /* libtlbx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80A21C49201A41D0BDF67347 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				6023C2A334534E168617C500 /* arr.cpp */,
+				B111159734A74038B3420B2C /* barr1.cpp */,
+				78C8E1D1C5534C4EBB92ACC3 /* barr2.cpp */,
+				B7D5F150411547F4907F51F2 /* barr2slice.cpp */,
+				D8140CAFBEAB4FF283A3AF50 /* barr2sub.cpp */,
+				4EED5A02F2704F419BD1B447 /* barr3.cpp */,
+				355F30FB92DD4C64BB8DF5B3 /* darr1.cpp */,
+				9449087713224019A878BE8F /* darr2.cpp */,
+				7D821D02CF994DA497EC35FF /* darr2slice.cpp */,
+				C2E0C5FB955F4111AD7D3684 /* darr2sub.cpp */,
+				8D3B5CBBB91D44C5BDD5B176 /* uiarr1.cpp */,
+				5D862391011B4BF287860130 /* uiarr2.cpp */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		9B88E9F62CC728AC003B1AB3 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				9B88E9F32CC728AC003B1AB3 /* mth.hpp */,
+				9B88E9F42CC728AC003B1AB3 /* str.hpp */,
+				9B88E9F52CC728AC003B1AB3 /* trg.hpp */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		9B88E9FB2CC728AC003B1AB3 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				9B88E9F82CC728AC003B1AB3 /* mth.cpp */,
+				9B88E9F92CC728AC003B1AB3 /* str.cpp */,
+				9B88E9FA2CC728AC003B1AB3 /* trg.cpp */,
+			);
+			name = sources;
+			path = tlbx/sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		9B88E9FD2CC728AC003B1AB3 /* tlbx */ = {
+			isa = PBXGroup;
+			children = (
+				9B88E9F62CC728AC003B1AB3 /* headers */,
+				9B88E9FB2CC728AC003B1AB3 /* sources */,
+				9B88E9FC2CC728AC003B1AB3 /* tlbx.hpp */,
+			);
+			path = tlbx;
+			sourceTree = "<group>";
+		};
+		A76F54398EBE40F995D66838 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D4ABEACB62D48259188268E /* gtest_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B31E925E786B4FD781B82685 = {
+			isa = PBXGroup;
+			children = (
+				9B88E9FD2CC728AC003B1AB3 /* tlbx */,
+				9B88EA392CC7377E003B1AB3 /* arr.hpp */,
+				694388DF16EF44F8BFF688C1 /* headers */,
+				80A21C49201A41D0BDF67347 /* sources */,
+				D3C7714D7F2248C28ED12BB7 /* arr_tests */,
+				4E75DDEE29454901A2DB96B6 /* examples */,
+				4E8537361673436A84764815 /* gtest */,
+				BBEB651082E04A99A184B9A0 /* gtest_main */,
+				7ED1F332D72E42BFA6197FA9 /* Products */,
+				CA31EDD95A7B4B3E8F333A6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3B17377F89D42CA811C748C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FC5F5E59695416AAB9CEFD0 /* arr_tests.cpp */,
+				CCDCB1D276C04FC784D930C1 /* test-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BBEB651082E04A99A184B9A0 /* gtest_main */ = {
+			isa = PBXGroup;
+			children = (
+				A76F54398EBE40F995D66838 /* Source Files */,
+				3AB497397B7E4E349BC7D6C8 /* CMakeLists.txt */,
+			);
+			name = gtest_main;
+			sourceTree = "<group>";
+		};
+		CA31EDD95A7B4B3E8F333A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3C7714D7F2248C28ED12BB7 /* arr_tests */ = {
+			isa = PBXGroup;
+			children = (
+				B3B17377F89D42CA811C748C /* Source Files */,
+				AB93E5D9E8EB476488D92209 /* CMakeLists.txt */,
+			);
+			name = arr_tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13C48F7C5D6C45B99A0DC794 /* examples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA65F219D6024CC082C15108 /* Build configuration list for PBXNativeTarget "examples" */;
+			buildPhases = (
+				9D6ADCE191AD4BE48345C7C8 /* Sources */,
+				E16E3CB842DD40179F74D7B4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662884C8048E4F0AADB7D8B3 /* PBXTargetDependency */,
+				E5051E1F7538495B8D90E179 /* PBXTargetDependency */,
+				9B88EA3D2CC9CB80003B1AB3 /* PBXTargetDependency */,
+				9B88EA462CC9CB80003B1AB3 /* PBXTargetDependency */,
+			);
+			name = examples;
+			productName = examples;
+			productReference = B3F35812D5344FE5BF4CD012 /* examples */;
+			productType = "com.apple.product-type.tool";
+		};
+		3DA12E9A3D6249F5BF5A0FEA /* arr_tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CBAF4455B34F99B72E7C5F /* Build configuration list for PBXNativeTarget "arr_tests" */;
+			buildPhases = (
+				E7AB78A7D39D4B31B0FE45F8 /* Sources */,
+				7D6B641F811646FA9D5941AB /* Frameworks */,
+				9D530B86968D6DAB9556035C /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A4E68A771F945CCA52E1BCB /* PBXTargetDependency */,
+				F46DDFFB8F3047AA8C06131E /* PBXTargetDependency */,
+				8DF1EFED0D1C42C1B3AEE169 /* PBXTargetDependency */,
+			);
+			name = arr_tests;
+			productName = arr_tests;
+			productReference = 33755D4D658647198B13BB67 /* arr_tests */;
+			productType = "com.apple.product-type.tool";
+		};
+		65FE4845F6D040E79DC45393 /* tlbx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE472E526193412894689AE7 /* Build configuration list for PBXNativeTarget "tlbx" */;
+			buildPhases = (
+				E33DA503E14E4DC4B93C71D4 /* Sources */,
+				988012517D5446BDAF08BA3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tlbx;
+			productName = tlbx;
+			productReference = 3DD9E54DD8334D4192429194 /* libtlbx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6C55E20202A1478D81776D30 /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255C605330004CCAB057DC73 /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				42D88E3CD38A458896A7AFFE /* Sources */,
+				886161D7426F4FAEACA4C1D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = 45C2AFF03594493E881B1955 /* libgtest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C67CD2D6E0324D90A34AA57C /* gtest_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329F5B15B1D8426E94C9F852 /* Build configuration list for PBXNativeTarget "gtest_main" */;
+			buildPhases = (
+				CC1910DF1950471F8DEC6A93 /* Sources */,
+				B7124997984D4946B31BF3B6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FD44F49E2B746CF9F6FE8D1 /* PBXTargetDependency */,
+			);
+			name = gtest_main;
+			productName = gtest_main;
+			productReference = 5505DF37CF8C4CD3AF60A8E8 /* libgtest_main.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E04DE608131C405BABB59A77 /* arr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCED9E35F8304B68967003D3 /* Build configuration list for PBXNativeTarget "arr" */;
+			buildPhases = (
+				F0CF4F41AFED407D9C1E9191 /* Sources */,
+				311EA54D2AB141DD95E32D0C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA75CFE5BE7A4E8BB208FBC8 /* PBXTargetDependency */,
+			);
+			name = arr;
+			productName = arr;
+			productReference = 26C63A5C08B34A6796D105AC /* libarr.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07438249ECED455394983957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 8FA3E65F825549CD82FE108A /* Build configuration list for PBXProject "arr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B31E925E786B4FD781B82685;
+			projectDirPath = /Users/phil3/Documents/Development/arr;
+			projectRoot = "";
+			targets = (
+				E04DE608131C405BABB59A77 /* arr */,
+				3DA12E9A3D6249F5BF5A0FEA /* arr_tests */,
+				13C48F7C5D6C45B99A0DC794 /* examples */,
+				6C55E20202A1478D81776D30 /* gtest */,
+				C67CD2D6E0324D90A34AA57C /* gtest_main */,
+				65FE4845F6D040E79DC45393 /* tlbx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D530B86968D6DAB9556035C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+				"/Users/phil3/Documents/Development/arr/build/Xcode/test/arr_tests[1]_tests.cmake",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/phil3/Documents/Development/arr/build/Xcode/test\n  /Applications/CMake.app/Contents/bin/cmake -D TEST_TARGET=arr_tests -D TEST_EXECUTABLE=/Users/phil3/Documents/Development/arr/build/Xcode/test/Debug/arr_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/phil3/Documents/Development/arr/build/Xcode/test -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX=arr: -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=arr_tests_TESTS -D CTEST_FILE=/Users/phil3/Documents/Development/arr/build/Xcode/test/arr_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /Applications/CMake.app/Contents/share/cmake-3.26/Modules/GoogleTestAddTests.cmake\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/phil3/Documents/Development/arr/build/Xcode/test\n  /Applications/CMake.app/Contents/bin/cmake -D TEST_TARGET=arr_tests -D TEST_EXECUTABLE=/Users/phil3/Documents/Development/arr/build/Xcode/test/Release/arr_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/phil3/Documents/Development/arr/build/Xcode/test -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX=arr: -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=arr_tests_TESTS -D CTEST_FILE=/Users/phil3/Documents/Development/arr/build/Xcode/test/arr_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /Applications/CMake.app/Contents/share/cmake-3.26/Modules/GoogleTestAddTests.cmake\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/phil3/Documents/Development/arr/build/Xcode/test\n  /Applications/CMake.app/Contents/bin/cmake -D TEST_TARGET=arr_tests -D TEST_EXECUTABLE=/Users/phil3/Documents/Development/arr/build/Xcode/test/MinSizeRel/arr_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/phil3/Documents/Development/arr/build/Xcode/test -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX=arr: -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=arr_tests_TESTS -D CTEST_FILE=/Users/phil3/Documents/Development/arr/build/Xcode/test/arr_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /Applications/CMake.app/Contents/share/cmake-3.26/Modules/GoogleTestAddTests.cmake\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/phil3/Documents/Development/arr/build/Xcode/test\n  /Applications/CMake.app/Contents/bin/cmake -D TEST_TARGET=arr_tests -D TEST_EXECUTABLE=/Users/phil3/Documents/Development/arr/build/Xcode/test/RelWithDebInfo/arr_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/phil3/Documents/Development/arr/build/Xcode/test -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX=arr: -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=arr_tests_TESTS -D CTEST_FILE=/Users/phil3/Documents/Development/arr/build/Xcode/test/arr_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /Applications/CMake.app/Contents/share/cmake-3.26/Modules/GoogleTestAddTests.cmake\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42D88E3CD38A458896A7AFFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BAD4B85D054E1FA07CF855 /* gtest-all.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6ADCE191AD4BE48345C7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE96F902CD3004C00F40FC1 /* arr.hpp in Sources */,
+				0E3F4820E6A84AFEA7177661 /* examples.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1910DF1950471F8DEC6A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64DA3649BA14AA7A40D38F8 /* gtest_main.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33DA503E14E4DC4B93C71D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B88EA202CC73622003B1AB3 /* mth.hpp in Sources */,
+				9B88EA212CC73622003B1AB3 /* str.hpp in Sources */,
+				9B88EA222CC73622003B1AB3 /* trg.hpp in Sources */,
+				9B88EA242CC73622003B1AB3 /* mth.cpp in Sources */,
+				9B88EA252CC73622003B1AB3 /* str.cpp in Sources */,
+				9B88EA262CC73622003B1AB3 /* trg.cpp in Sources */,
+				9B88EA272CC73622003B1AB3 /* tlbx.hpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AB78A7D39D4B31B0FE45F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D8EB6393D45909963ED50 /* arr_tests.cpp in Sources */,
+				D278F8B6929048AF8839F3D3 /* test-main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CF4F41AFED407D9C1E9191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B88EA3A2CC7377E003B1AB3 /* arr.hpp in Sources */,
+				9B88EA282CC73675003B1AB3 /* arr1.hpp in Sources */,
+				9B88EA292CC73675003B1AB3 /* arr1.hpp in Sources */,
+				9B88EA2A2CC73675003B1AB3 /* arr2.hpp in Sources */,
+				9B88EA2B2CC73675003B1AB3 /* arr2slice.hpp in Sources */,
+				9B88EA2C2CC73675003B1AB3 /* arr2sub.hpp in Sources */,
+				9B88EA2D2CC73675003B1AB3 /* arr3.hpp in Sources */,
+				9B88EA2E2CC73675003B1AB3 /* barr1.hpp in Sources */,
+				9B88EA2F2CC73675003B1AB3 /* barr2.hpp in Sources */,
+				9B88EA302CC73675003B1AB3 /* barr2slice.hpp in Sources */,
+				9B88EA312CC73675003B1AB3 /* barr2sub.hpp in Sources */,
+				9B88EA322CC73675003B1AB3 /* barr3.hpp in Sources */,
+				9B88EA332CC73675003B1AB3 /* darr1.hpp in Sources */,
+				9B88EA342CC73675003B1AB3 /* darr2.hpp in Sources */,
+				9B88EA352CC73675003B1AB3 /* darr2slice.hpp in Sources */,
+				9B88EA362CC73675003B1AB3 /* darr2sub.hpp in Sources */,
+				9B88EA372CC73675003B1AB3 /* uiarr1.hpp in Sources */,
+				9B88EA382CC73675003B1AB3 /* uiarr2.hpp in Sources */,
+				E5EE090DA46D4E0E8F877F23 /* arr.cpp in Sources */,
+				B5DAB9C01AF444979BAC5C52 /* barr1.cpp in Sources */,
+				DA0C65452BFC4C8A8DA72459 /* barr2.cpp in Sources */,
+				1A73AFCFB2A246A2B3A95AF0 /* barr2slice.cpp in Sources */,
+				4E839B341EE1442DA7D84D40 /* barr2sub.cpp in Sources */,
+				E078765304264F91B9628FB3 /* barr3.cpp in Sources */,
+				8641E82318B44C14833EF84F /* darr1.cpp in Sources */,
+				246049FC97664C09825C0EA5 /* darr2.cpp in Sources */,
+				B4CDA9B9DAB74FA595CD8673 /* darr2slice.cpp in Sources */,
+				2678C72F69234F8F91CF08BD /* darr2sub.cpp in Sources */,
+				DC55EE2215054368861B539B /* uiarr1.cpp in Sources */,
+				BBE9E9E1B5714BD1988076CB /* uiarr2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A4E68A771F945CCA52E1BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C55E20202A1478D81776D30 /* gtest */;
+			targetProxy = 6271CD0FA9FC4B60BEECB66C /* PBXContainerItemProxy */;
+		};
+		662884C8048E4F0AADB7D8B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FE4845F6D040E79DC45393 /* tlbx */;
+			targetProxy = 2B4058EE092D4692A75F1B64 /* PBXContainerItemProxy */;
+		};
+		8DF1EFED0D1C42C1B3AEE169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E04DE608131C405BABB59A77 /* arr */;
+			targetProxy = 3F598C9E8FAB4C17AED191E4 /* PBXContainerItemProxy */;
+		};
+		9B88EA3D2CC9CB80003B1AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E04DE608131C405BABB59A77 /* arr */;
+			targetProxy = 9B88EA3C2CC9CB80003B1AB3 /* PBXContainerItemProxy */;
+		};
+		9B88EA462CC9CB80003B1AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FE4845F6D040E79DC45393 /* tlbx */;
+			targetProxy = 9B88EA452CC9CB80003B1AB3 /* PBXContainerItemProxy */;
+		};
+		9FD44F49E2B746CF9F6FE8D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C55E20202A1478D81776D30 /* gtest */;
+			targetProxy = 4287256D4AA04091A6FCBDBF /* PBXContainerItemProxy */;
+		};
+		E5051E1F7538495B8D90E179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E04DE608131C405BABB59A77 /* arr */;
+			targetProxy = 1DE965D85C004195A0782F5D /* PBXContainerItemProxy */;
+		};
+		EA75CFE5BE7A4E8BB208FBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FE4845F6D040E79DC45393 /* tlbx */;
+			targetProxy = F1D40D279DF646059E581EA1 /* PBXContainerItemProxy */;
+		};
+		F46DDFFB8F3047AA8C06131E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FE4845F6D040E79DC45393 /* tlbx */;
+			targetProxy = FF7AC930D1CC4454826B2D51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05AA4F3CBA4E4AC3999C5B68 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/test/RelWithDebInfo;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = H5B4FJ76P7;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/include,
+					/Users/phil3/Documents/Development/arr/src,
+					/Users/phil3/Documents/Development/arr/src/headers,
+					/Users/phil3/Documents/Development/arr/vendor/tlbx/src/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/phil3/Documents/Development/arr/build/Xcode/RelWithDebInfo/libarr.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/lib/RelWithDebInfo/libgtest.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/RelWithDebInfo/libtlbx.a,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = arr_tests;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/arr_tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		07B61E806E204016A671B5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/test/Debug;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = H5B4FJ76P7;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/include,
+					/Users/phil3/Documents/Development/arr/src,
+					/Users/phil3/Documents/Development/arr/src/headers,
+					/Users/phil3/Documents/Development/arr/vendor/tlbx/src/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/phil3/Documents/Development/arr/build/Xcode/Debug/libarr.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/lib/Debug/libgtest.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/Debug/libtlbx.a,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = arr_tests;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/arr_tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		084C9320087541E5ABB3E485 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					.,
+					./headers,
+					./tlbx/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-Darr_STATIC_DEFINE",
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = arr;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/arr.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		0DB37280CA1C4049B8D8D36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/examples/Release;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = H5B4FJ76P7;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/phil3/Documents/Development/arr/**",
+					/Users/phil3/Documents/Development/tlbx,
+				);
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/phil3/Documents/Development/arr/build/Xcode/Release/libarr.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/Release/libtlbx.a,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = examples;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/examples.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		0EF28B702166411E83168A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					./tlbx/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tlbx;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/tlbx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		1F2803421EB84621AF4EC9D1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					./tlbx/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tlbx;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/tlbx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		232588080E3B49BFAABE8239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=c++14'",
+					"-DGTEST_HAS_PTHREAD=1",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		2424850CC8CB4C66BA1472E1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/examples/RelWithDebInfo;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = H5B4FJ76P7;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/phil3/Documents/Development/arr/**",
+					/Users/phil3/Documents/Development/tlbx,
+				);
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/phil3/Documents/Development/arr/build/Xcode/RelWithDebInfo/libarr.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/RelWithDebInfo/libtlbx.a,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = examples;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/examples.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		2B3C934466374AD1B38D6D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/phil3/Documents/Development/arr/build;
+			};
+			name = Release;
+		};
+		2F738E00227E47EE8615BB9E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/phil3/Documents/Development/arr/build;
+			};
+			name = RelWithDebInfo;
+		};
+		4A4C080BE2B641CE81FE9AEE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=c++14'",
+					"-DGTEST_HAS_PTHREAD=1",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		4D37EBA0F333485688F45FA3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					.,
+					./headers,
+					./tlbx/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-Darr_STATIC_DEFINE",
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = arr;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/arr.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		6A4F1A9E89D149CCB905C831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/test/Release;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = H5B4FJ76P7;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/include,
+					/Users/phil3/Documents/Development/arr/src,
+					/Users/phil3/Documents/Development/arr/src/headers,
+					/Users/phil3/Documents/Development/arr/vendor/tlbx/src/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/phil3/Documents/Development/arr/build/Xcode/Release/libarr.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/lib/Release/libgtest.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/Release/libtlbx.a,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = arr_tests;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/arr_tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		8549EC3189F048C4AFFD884D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=c++14'",
+					"-DGTEST_HAS_PTHREAD=1",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		918C3E43F89D47E994116296 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					./tlbx/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tlbx;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/tlbx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		95A2DE3C1A914BC8824D808A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/test/MinSizeRel;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = H5B4FJ76P7;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/include,
+					/Users/phil3/Documents/Development/arr/src,
+					/Users/phil3/Documents/Development/arr/src/headers,
+					/Users/phil3/Documents/Development/arr/vendor/tlbx/src/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/phil3/Documents/Development/arr/build/Xcode/MinSizeRel/libarr.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/lib/MinSizeRel/libgtest.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/MinSizeRel/libtlbx.a,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = arr_tests;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/arr_tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		980E634F870649A5B2185452 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/phil3/Documents/Development/arr/build;
+			};
+			name = MinSizeRel;
+		};
+		ABF22F8569E348AF8DB05FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					.,
+					./headers,
+					./tlbx/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-Darr_STATIC_DEFINE",
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = arr;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/arr.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		B9B4974105BC4A219E76F26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=c++14'",
+					"-DGTEST_HAS_PTHREAD=1",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		BED139AD0B6843C0B77A3A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					.,
+					./headers,
+					./tlbx/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"'-std=gnu++17'",
+					"-Darr_STATIC_DEFINE",
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = arr;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/arr.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		C86BC50054554B42BC90785E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/examples/Debug;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = H5B4FJ76P7;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/phil3/Documents/Development/arr/**",
+					/Users/phil3/Documents/Development/tlbx,
+				);
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/phil3/Documents/Development/arr/build/Xcode/Debug/libarr.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/Debug/libtlbx.a,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = examples;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/examples.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		C8FC43FB40524E29BB3B4DBF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=c++14'",
+					"-DGTEST_HAS_PTHREAD=1",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		CFEF99B89C614A3C9CECAF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk;
+				SYMROOT = /Users/phil3/Documents/Development/arr/build;
+			};
+			name = Debug;
+		};
+		E31E29E2443B470DAE913E41 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/examples/MinSizeRel;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = H5B4FJ76P7;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/phil3/Documents/Development/arr/**",
+					/Users/phil3/Documents/Development/tlbx,
+				);
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/phil3/Documents/Development/arr/build/Xcode/MinSizeRel/libarr.a,
+					/Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/MinSizeRel/libtlbx.a,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = examples;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/examples.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		E58890C6C58442B8A24E6BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"'-std=c++14'",
+					"-DGTEST_HAS_PTHREAD=1",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		E5A148073DC04F53BBEBF1B8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-DNDEBUG",
+					"'-std=c++14'",
+					"-DGTEST_HAS_PTHREAD=1",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		E84B548D85654CC5A4F5C024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/vendor/tlbx/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					./tlbx/headers,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tlbx;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/tlbx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		FC79024580484686B9D9FE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/phil3/Documents/Development/arr/build/Xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest/include,
+					/Users/phil3/Documents/Development/arr/vendor/googletest/googletest,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"'-std=c++14'",
+					"-DGTEST_HAS_PTHREAD=1",
+					"-fPIC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/phil3/Documents/Development/arr/build/Xcode/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255C605330004CCAB057DC73 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC79024580484686B9D9FE92 /* Debug */,
+				232588080E3B49BFAABE8239 /* Release */,
+				8549EC3189F048C4AFFD884D /* MinSizeRel */,
+				E5A148073DC04F53BBEBF1B8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		329F5B15B1D8426E94C9F852 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58890C6C58442B8A24E6BF0 /* Debug */,
+				B9B4974105BC4A219E76F26C /* Release */,
+				4A4C080BE2B641CE81FE9AEE /* MinSizeRel */,
+				C8FC43FB40524E29BB3B4DBF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		44CBAF4455B34F99B72E7C5F /* Build configuration list for PBXNativeTarget "arr_tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B61E806E204016A671B5AB /* Debug */,
+				6A4F1A9E89D149CCB905C831 /* Release */,
+				95A2DE3C1A914BC8824D808A /* MinSizeRel */,
+				05AA4F3CBA4E4AC3999C5B68 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8FA3E65F825549CD82FE108A /* Build configuration list for PBXProject "arr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEF99B89C614A3C9CECAF34 /* Debug */,
+				2B3C934466374AD1B38D6D62 /* Release */,
+				980E634F870649A5B2185452 /* MinSizeRel */,
+				2F738E00227E47EE8615BB9E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA65F219D6024CC082C15108 /* Build configuration list for PBXNativeTarget "examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86BC50054554B42BC90785E /* Debug */,
+				0DB37280CA1C4049B8D8D36D /* Release */,
+				E31E29E2443B470DAE913E41 /* MinSizeRel */,
+				2424850CC8CB4C66BA1472E1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FCED9E35F8304B68967003D3 /* Build configuration list for PBXNativeTarget "arr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED139AD0B6843C0B77A3A8C /* Debug */,
+				ABF22F8569E348AF8DB05FB6 /* Release */,
+				084C9320087541E5ABB3E485 /* MinSizeRel */,
+				4D37EBA0F333485688F45FA3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE472E526193412894689AE7 /* Build configuration list for PBXNativeTarget "tlbx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84B548D85654CC5A4F5C024 /* Debug */,
+				0EF28B702166411E83168A7C /* Release */,
+				1F2803421EB84621AF4EC9D1 /* MinSizeRel */,
+				918C3E43F89D47E994116296 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07438249ECED455394983957 /* Project object */;
+}
