@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "19E2ECAE-FA63-42C2-8ADC-3AF1FE6743F9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE0C3575-3A21-4A2D-890C-2FCE31E5B653"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "test/arr_tests.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "TEST()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "FE0C3575-3A21-4A2D-890C-2FCE31E5B653 - 4d8a3374656b606b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arrTest_first_test_Test::TestBody()"
+                  moduleName = "arr_tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phil3/Documents/Development/arr/test/arr_tests.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "427">
+               </Location>
+               <Location
+                  uuid = "FE0C3575-3A21-4A2D-890C-2FCE31E5B653 - 4d8a3374656b606b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "arrTest_first_test_Test::TestBody()"
+                  moduleName = "arr_tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phil3/Documents/Development/arr/test/arr_tests.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "529">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F955D802-244B-4C22-BA40-E3EBE23A4E57"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/headers/arr1.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
