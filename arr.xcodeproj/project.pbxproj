@@ -57,7 +57,7 @@
 		9BE9708B2CD4355200F40FC1 /* libtlbx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE9707E2CD4350400F40FC1 /* libtlbx.a */; };
 		9BE9708C2CD4355C00F40FC1 /* arr.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BE970342CD4333D00F40FC1 /* arr.hpp */; };
 		9BE9708D2CD436CE00F40FC1 /* tlbx.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BE970632CD434BC00F40FC1 /* tlbx.hpp */; };
-		9BE970AA2CD4379F00F40FC1 /* examples in Sources */ = {isa = PBXBuildFile; fileRef = 9BE970292CD4327100F40FC1 /* examples */; };
+		9BE971672CD5813A00F40FC1 /* examples.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BE96FB52CD431B900F40FC1 /* examples.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -436,7 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE970AA2CD4379F00F40FC1 /* examples in Sources */,
+				9BE971672CD5813A00F40FC1 /* examples.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
