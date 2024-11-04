@@ -1,6 +1,4 @@
-[submodule "vendor/googletest"]
-	path = vendor/googletest
-	url = https://github.com/google/googletest.git
-[submodule "vendor/tlbx"]
-	path = vendor/tlbx
+
+[submodule "tlbx"]
+	path = tlbx
 	url = https://github.com/SPAhrenTech/tlbx.git

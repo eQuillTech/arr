@@ -35,3 +35,6 @@ builds/
 *.exe
 *.out
 *.app
+
+tlbx.xcodeproj/xcuserdata/phil3.xcuserdatad/*
+tlbx/
