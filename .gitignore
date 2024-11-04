@@ -37,3 +37,4 @@ builds/
 *.app
 
 tlbx.xcodeproj/xcuserdata/phil3.xcuserdatad/*
+tlbx/
