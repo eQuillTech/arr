@@ -52,6 +52,6 @@ namespace arr {
 
 }
 
-#include "../sources/arr2sub.tem"
+#include "arr2sub.tem"
 
 #endif

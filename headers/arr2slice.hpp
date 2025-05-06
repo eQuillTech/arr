@@ -49,6 +49,6 @@ namespace arr {
     };
 }
 
-#include "../sources/arr2slice.tem"
+#include "arr2slice.tem"
 
 #endif

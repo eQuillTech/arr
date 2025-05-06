@@ -134,6 +134,6 @@ template <class data_type>
 std::ostream& operator<<(std::ostream& os, const arr2<data_type>& A);
 } // namespace arr
 
-#include "../sources/arr2.tem"
+#include "arr2.tem"
 
 #endif

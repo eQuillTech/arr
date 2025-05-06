@@ -68,6 +68,6 @@ class arr3 {
 
 } // namespace arr
 
-#include "../sources/arr3.tem"
+#include "arr3.tem"
 
 #endif

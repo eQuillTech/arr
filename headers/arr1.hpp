@@ -114,6 +114,6 @@ std::ostream& operator<<(std::ostream& os, const arr1<data_type>& A);
 
 } // namespace arr
 
-#include "../sources/arr1.tem"
+#include "arr1.tem"
 
 #endif
