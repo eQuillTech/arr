@@ -6,6 +6,7 @@
 #include <iostream>
 
 namespace arr {
+
 extern int err;
 int check_err();
 void clear_err();

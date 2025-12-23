@@ -6,7 +6,6 @@ namespace arr {
 
 int err = 0;
 
-//
 int check_err()
 {
     int res = err;
@@ -14,7 +13,6 @@ int check_err()
     return res;
 }
 
-//
 void clear_err() { err = 0; }
 
 } // namespace arr
