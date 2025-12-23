@@ -233,7 +233,7 @@ darr2 darr2::cofactor() const
     size_t i, j;
     for (i = 0; i < size(0); ++i)
         for (j = 0; j < size(0); ++j)
-            res(i, j) = cos((i + j) * trg::Pi) * minor(i, j).det();
+            res(i, j) = cos((i + j) * trg::pi) * minor(i, j).det();
     return res;
 }
 
@@ -458,7 +458,7 @@ double darr2::findAngle(const size_t i, const size_t j, double& ang) const
         s = 0.;
     }
 
-    ang = trg::asincos(s, c);
+    ang = trg::asncs(s, c);
     return fabs(Apq); // reduction in off(A) is 2*(A_pq)^2
 }
 
