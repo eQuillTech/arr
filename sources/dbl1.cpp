@@ -3,8 +3,6 @@
 #include <cstdlib>
 #include <math.h>
 
-// #include "cpx.hpp"
-
 #include "arr.hpp"
 #include "mth.hpp"
 #include "trg.hpp"

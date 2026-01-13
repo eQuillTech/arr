@@ -3,13 +3,7 @@
 #ifndef _ARR3_
 #define _ARR3_
 
-#ifndef _ARR1_
 #include "arr2.hpp"
-#endif
-
-#ifndef _ARR1_
-#include "arr2.hpp"
-#endif
 
 #include <vector>
 

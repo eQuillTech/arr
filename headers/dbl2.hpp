@@ -5,11 +5,10 @@
 
 #include <iostream>
 
-#ifndef _ARR2_
 #include "arr2.hpp"
-#endif
 
 namespace arr {
+
 class dbl1;
 class bool2;
 class uint2;
@@ -21,11 +20,12 @@ typedef arr2<double> double_arr2;
 //
 class dbl2 : public double_arr2 {
 private:
+
 public:
 	dbl2(const std::size_t nRows = 0, std::size_t nCols = 0, const double* a = NULL)
 	: double_arr2(nRows, nCols, a) {}
 	
-	dbl2(const dbl1& A) : double_arr2(A) {}
+	dbl2(const dbl1& A) : double_arr2(A.size(),1,A.data()) {}
 	dbl2(const double_arr2& A) : double_arr2(A.size(0), A.size(1), A.data()) {}
 	dbl2(const dbl2slice& A);
 	dbl2(const dbl2sub& A);

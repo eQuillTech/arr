@@ -5,11 +5,10 @@
 
 #include <iostream>
 
-#ifndef _ARR2SLICE_
 #include "arr2slice.hpp"
-#endif
 
 namespace arr {
+
 class dbl2;
 
 typedef arr2slice<double> double_arr2slice;

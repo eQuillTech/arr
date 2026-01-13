@@ -5,11 +5,10 @@
 
 #include <iostream>
 
-#ifndef _ARR2SUB_
 #include "arr2sub.hpp"
-#endif
 
 namespace arr {
+
 class dbl2;
 
 typedef arr2sub<double> double_arr2sub;

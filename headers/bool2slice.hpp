@@ -5,11 +5,10 @@
 
 #include <iostream>
 
-#ifndef _ARR2SLICE_
 #include "arr2slice.hpp"
-#endif
 
 namespace arr {
+
 class bool2;
 
 typedef arr2slice<bool> bool_arr2slice;

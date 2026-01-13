@@ -5,9 +5,7 @@
 
 #include <iostream>
 
-#ifndef _ARR2_
 #include "arr2.hpp"
-#endif
 
 namespace arr {
 class bool2slice;

@@ -1,15 +1,14 @@
 //bool arrays (n) - P. Ahrenkiel
 
-#ifndef _BARR1_
-#define _BARR1_
+#ifndef _BOOL1_
+#define _BOOL1_
 
 #include <iostream>
 
-#ifndef _ARR1_
 #include "arr1.hpp"
-#endif
 
 namespace arr {
+
 class bool2slice;
 
 typedef arr1<bool> bool_arr1;

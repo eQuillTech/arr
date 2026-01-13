@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10) # required
 set(PROJECT_NAME arr)
 project(${PROJECT_NAME})  # project name
 		
-file(GLOB_RECURSE cpp_headers headers/*.hpp)
+file(GLOB_RECURSE cpp_headers headers/*.hpp headers/*.tem)
 file(GLOB_RECURSE cpp_sources sources/*.cpp)
 set(cpp_srcs ${PROJECT_NAME}.hpp ${cpp_headers} ${cpp_sources})
 

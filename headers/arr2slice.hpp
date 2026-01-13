@@ -3,18 +3,13 @@
 #ifndef _ARR2SLICE_
 #define _ARR2SLICE_
 
-#ifndef _ARR1_
-#include "arr1.hpp"
-#endif
+#import "arr2.hpp"
 
 namespace arr {
+
 template<class data_type>
 class arr1;
 
-template<class data_type>
-class arr2;
-
-//
 template<class data_type>
 class arr2slice {
 private:

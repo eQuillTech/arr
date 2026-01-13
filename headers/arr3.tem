@@ -4,8 +4,15 @@
 #include <math.h>
 #include <iostream>
 
+#include "arr1.hpp"
+#include "arr2.hpp"
+#include "arr2sub.hpp"
+#include "arr2slice.hpp"
+#include "arr3.hpp"
+#include "error.hpp"
+
 namespace arr {
-//
+
 template <class data_type>
 arr3<data_type>::arr3(const std::size_t n0,
                       const std::size_t n1,

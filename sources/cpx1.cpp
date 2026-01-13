@@ -3,6 +3,7 @@ Complex Arrays: Rank 1- P. Ahrenkiel
 */
 
 #include "tlbx.hpp"
+
 #include "cpx1.hpp"
 #include "dbl1.hpp"
 
@@ -50,7 +51,7 @@ cpx cpx1::operator*(const cpx1 &A) const
 	cpx res=0;
 	if(size()!=A.size())
 	{
-		arr_err=-1;
+		err=-1;
 		return res;
 	}
 	std::size_t i;
@@ -86,13 +87,13 @@ cpx1 cpx1::operator/=(const cpx &C)
 
 double cpx1::mag() const
 {
-	return xpowy(magsqr(),0.5);
+	return std::sqrt(magsqr());
 }
 
 double cpx1::magsqr() const
 {
 	double res=0.;
-	for(std::size_ti=0;i<size();++i)
+	for(std::size_t i=0;i<size();++i)
 		res+=((*this)(i)).magsqr();
 	return res;
 }
@@ -102,7 +103,7 @@ cpx1 cpx1::conj() const
 	cpx1 A=*this;
 	std::size_t i;
 	for(i=0;i<size();++i)
-		A(i)=A(i).conj();
+		A(i)=std::conj(A(i));
 	return A;
 }	
 
@@ -137,7 +138,7 @@ std::ostream& operator<<(std::ostream &os,const cpx1 &A)
 		if(i>0)os<<"\t";
 		os<<A(i);
 	}
-	os<<endl;
+	os<<std::endl;
 	return os;
 }
 

@@ -4,6 +4,8 @@
 #include <iostream>
 #include <math.h>
 
+#include "error.hpp"
+
 namespace arr {
 //
 template <class data_type>

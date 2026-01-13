@@ -5,11 +5,13 @@ Arrays: Rank 2- P. Ahrenkiel
 #ifndef _CPX2
 #define _CPX2
 
-#include "arr1.hpp"
+#include "arr2.hpp"
 #include "cpx.hpp"
 
-class cpx1;
+
 namespace arr {
+
+class cpx1;
 
 typedef arr2<cpx> cpx_arr2;
 

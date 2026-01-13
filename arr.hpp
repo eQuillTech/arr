@@ -5,25 +5,13 @@
 
 #include <iostream>
 
-namespace arr {
-
-inline int err=0;
-inline int check_err()
-{
-    int res = err;
-    err = 0;
-    return res;
-}
-
-inline void clear_err(){ err = 0; }
-
-} // namespace arr
-
+// namespace arr
 #include "arr1.hpp"
 #include "arr2.hpp"
 #include "arr3.hpp"
 #include "arr2slice.hpp"
 #include "arr2sub.hpp"
+#include "error.hpp"
 #include "dbl1.hpp"
 #include "dbl2.hpp"
 #include "dbl2slice.hpp"
@@ -39,5 +27,6 @@ inline void clear_err(){ err = 0; }
 #include "bool2sub.hpp"
 #include "cpx1.hpp"
 #include "cpx2.hpp"
+
 
 #endif

@@ -4,10 +4,14 @@
 #include <math.h>
 #include <iostream>
 
-#include "arr.hpp"
+#include "arr1.hpp"
+#include "arr2.hpp"
+#include "arr2sub.hpp"
+#include "arr2slice.hpp"
+#include "error.hpp"
 
 namespace arr {
-//
+
 template <class data_type>
 arr2<data_type>::arr2(const std::size_t nRows, std::size_t nCols, const data_type* a)
     : m_nRows(nRows), m_nCols(nCols)

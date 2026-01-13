@@ -5,16 +5,12 @@
 
 #include <iostream>
 
+#include "arr1.hpp"
+
 namespace arr {
 
-#ifndef _ARR1_
-#include "arr1.hpp"
-#endif
-
 class dbl2;
-
 class dbl2slice;
-
 class uiarr1;
 
 typedef arr1<double> double_arr1;
@@ -23,7 +19,7 @@ typedef arr1<double> double_arr1;
 class dbl1 : public double_arr1 {
 private:
 public:
-	dbl1(const std::size_t n = 0, const double* ap = NULL) : double_arr1(n, ap) {}
+	dbl1(const std::size_t n=0,const double* ap=NULL) : double_arr1(n, ap) {}
 	dbl1(const double_arr1& A) : double_arr1(A.size(), A.data()) {}
 	dbl1(const dbl2slice& A);
 	

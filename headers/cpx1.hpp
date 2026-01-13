@@ -5,10 +5,11 @@ Complex Arrays: Rank 1- P. Ahrenkiel
 #ifndef _CPX1
 #define _CPX1
 
-#include <iostream> 
+#include <iostream>
 
-#include "arr1.hpp"
 #include "cpx.hpp"
+#include "arr1.hpp"
+#include "dbl1.hpp"
 
 namespace arr {
 

@@ -4,10 +4,7 @@
 #define _UINT2_
 
 #include <iostream>
-
-#ifndef _ARR2_
 #include "arr2.hpp"
-#endif
 
 namespace arr {
 typedef arr2<std::size_t> uint_arr2;

@@ -3,15 +3,11 @@
 #ifndef _ARR2SUB_
 #define _ARR2SUB_
 
-#ifndef _ARR1_
-#include "arr1.hpp"
-#endif
-
 namespace arr {
+
     template<class data_type>
     class arr2;
 
-//
     template<class data_type>
     class arr2sub {
     private:

@@ -6,6 +6,8 @@ Complex Arrays 2 - P. Ahrenkiel
 #include <math.h>
 
 #include "tlbx.hpp"
+#include "error.hpp"
+#include "cpx1.hpp"
 #include "cpx2.hpp"
 #include "dbl2.hpp"
 
@@ -13,15 +15,14 @@ namespace arr {
 
 cpx2 cpx2::operator+() const
 {
-	return *this
+	return *this;
 }
 
 cpx2 cpx2::operator-() const
 {
 	cpx2 res(*this);
-	size_t i,j;
-	for(i=0;i<size(0);++i)
-		for(j=0;j<size(1);++j)
+	for(std::size_t i=0;i<size(0);++i)
+		for(std::size_t j=0;j<size(1);++j)
 			res(i,j)*=-1;
 	return res;
 }
@@ -29,9 +30,8 @@ cpx2 cpx2::operator-() const
 cpx2 cpx2::operator+(const cpx2 &A) const
 {
 	cpx2 res(*this);
-	size_t i,j;
-	for(i=0;i<size(0);++i)
-		for(j=0;j<size(1);++j)
+	for(std::size_t i=0;i<size(0);++i)
+		for(std::size_t j=0;j<size(1);++j)
 			res(i,j)+=A(i,j);
 	return res;
 }
@@ -39,9 +39,8 @@ cpx2 cpx2::operator+(const cpx2 &A) const
 cpx2 cpx2::operator-(const cpx2 &A) const
 {
 	cpx2 res(*this);
-	size_t i,j;
-	for(i=0;i<size(0);++i)
-		for(j=0;j<size(1);++j)
+	for(std::size_t i=0;i<size(0);++i)
+		for(std::size_t j=0;j<size(1);++j)
 			res(i,j)-=A(i,j);
 	return res;
 }
@@ -86,10 +85,10 @@ cpx2 cpx2::operator/=(double x)
 	return *this=(*this)/x;
 }
 
-carr1 cpx2::operator*(const carr1 &A) const
+cpx1 cpx2::operator*(const cpx1 &A) const
 {
 	size_t i,j;
-	carr1 res(size(0));
+	cpx1 res(size(0));
 	for(i=0;i<size(0);++i)
 	{
 		cpx x=0.;
@@ -118,9 +117,9 @@ cpx2 cpx2::operator*(const cpx2 &A) const
 cpx2 cpx2::inverse() const
 {
 	cpx2 res(size(1),size(0));
-	if(!is_square())
+	if(!isSquare())
 	{
-		arr_err=-1;
+		err=-1;
 		return res;
 	}
 
@@ -129,25 +128,23 @@ cpx2 cpx2::inverse() const
 
 cpx2 cpx2::diagonal() const
 {
-	size_t i,j;
 	cpx2 res(size(0),size(1));
-	
-	for(i=0;i<size(0);++i)
-		for(j=0;i<size(1);++i)
-			res(i,j)=(*this)(i,j)*Kdelta(i,j);
+	for(std::size_t i = 0; i<size(0); ++i)
+		for(std::size_t j = 0; j<size(1); ++j)
+			res(i,j)=mth::Kdelta(i,j)*(*this)(i,j);
 	return res;
 }
 
 cpx2 cpx2::pseudoinverse_left() const
 {
-	cpx2 AT=transpose();
+	cpx2 AT=T();
 	cpx2 res=(AT*(*this)).inverse()*AT;
 	return res;
 }
 
 cpx2 cpx2::pseudoinverse_right() const
 {
-	cpx2 AT=transpose();
+	cpx2 AT=T();
 	cpx2 res=AT*(((*this)*AT).inverse());
 	return res;
 }
@@ -186,13 +183,13 @@ cpx2 cpx2::cofactor() const
 	size_t i,j;
 	for(i=0;i<size(0);++i)
 		for(j=0;j<size(0);++j)
-				res(i,j)=cos((i+j)*Pi)*minor(i,j).det();
+				res(i,j)=cos((i+j)*trg::pi)*minor(i,j).det();
 	return res;
 }
 
 cpx2 cpx2::adjugate() const
 {
-	return cofactor().transpose();
+	return cofactor().T();
 }
 
 cpx cpx2::det() const
@@ -205,7 +202,7 @@ cpx cpx2::det() const
 		for(j=0;j<size(0);++j)
 		{
 			cpx2 temp=minor(0,j);				
-			cpx del=cos(j*Pi)*(*this)(0,j)*(temp).det();
+			cpx del=cos(j*trg::pi)*(*this)(0,j)*(temp).det();
 			res+=del;
 		}
 		return res;
@@ -244,7 +241,7 @@ std::ostream& operator<<(std::ostream &os,const cpx2 &A)
 			if(j>0)os<<"\t";
 			os<<A(i,j);
 		}
-		os<<endl;
+		os<<std::endl;
 	}
 	return os;
 }
