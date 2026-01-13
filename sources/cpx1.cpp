@@ -1,5 +1,5 @@
 /*
-Complex Arrays: Rank 1- P. Ahrenkiel
+Complex 1-D Arrays - P. Ahrenkiel
 */
 
 #include "tlbx.hpp"
@@ -31,8 +31,7 @@ cpx1 cpx1::operator-() const
 cpx1 cpx1::operator+(const cpx1 &A) const
 {
 	cpx1 res(*this);
-	std::size_t i;
-	for(i=0;i<size();++i)
+	for(std::size_t i=0;i<size();++i)
 		res(i)+=A(i);
 	return res;
 }
@@ -40,8 +39,7 @@ cpx1 cpx1::operator+(const cpx1 &A) const
 cpx1 cpx1::operator-(const cpx1 &A) const
 {
 	cpx1 res(*this);
-	std::size_t i;
-	for(i=0;i<size();++i)
+	for(std::size_t i=0;i<size();++i)
 		res(i)-=A(i);
 	return res;
 }
@@ -54,8 +52,7 @@ cpx cpx1::operator*(const cpx1 &A) const
 		err=-1;
 		return res;
 	}
-	std::size_t i;
-	for(i=0;i<size();++i)
+	for(std::size_t i=0;i<size();++i)
 		res+=(*this)(i)*A(i);
 	return res;
 }
@@ -101,8 +98,7 @@ double cpx1::magsqr() const
 cpx1 cpx1::conj() const
 {
 	cpx1 A=*this;
-	std::size_t i;
-	for(i=0;i<size();++i)
+	for(std::size_t i=0;i<size();++i)
 		A(i)=std::conj(A(i));
 	return A;
 }	

@@ -1,5 +1,5 @@
 /*
-Complex Arrays 2 - P. Ahrenkiel
+Complex 2-D Arrays - P. Ahrenkiel
 */
 
 #include <cstdlib>
@@ -175,7 +175,6 @@ cpx2 cpx2::minor(size_t m,size_t n) const
 
 	return res;
 }
-
 
 cpx2 cpx2::cofactor() const
 {

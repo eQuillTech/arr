@@ -230,9 +230,8 @@ dbl2 dbl2::dampedPseudoInvLeft(double lambda) const
 dbl2 dbl2::cofactor() const
 {
     dbl2 res(size(0), size(0));
-    size_t i, j;
-    for (i = 0; i < size(0); ++i)
-        for (j = 0; j < size(0); ++j)
+    for (std::size_t i = 0; i < size(0); ++i)
+        for (std::size_t j = 0; j < size(0); ++j)
             res(i, j) = cos((i + j) * trg::pi) * minor(i, j).det();
     return res;
 }

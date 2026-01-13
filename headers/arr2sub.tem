@@ -24,9 +24,6 @@ arr2sub<data_type>::arr2sub(arr2<data_type> *a, const std::size_t iRow, const st
 template<class data_type>
 arr2sub<data_type>::arr2sub(const arr2sub<data_type> &A)
 				:arr2sub(A.source(), A.index(0), A.index(1), A.size(0), A.size(1)) {
-		//std::cout<<"here\n";
-		//arr2sub<data_type> T=arr2sub(A.source(),A.index(0),A.index(1),A.size(0),A.size(1));
-		//this=arr2sub(A.source(),A.index(0),A.index(1),A.size(0),A.size(1));
 }
 
 //
