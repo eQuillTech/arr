@@ -37,5 +37,7 @@ inline void clear_err(){ err = 0; }
 #include "dbl2sub.hpp"
 #include "bool2slice.hpp"
 #include "bool2sub.hpp"
+#include "cpx1.hpp"
+#include "cpx2.hpp"
 
 #endif
