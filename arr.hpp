@@ -7,9 +7,15 @@
 
 namespace arr {
 
-extern int err;
-int check_err();
-void clear_err();
+inline int err=0;
+inline int check_err()
+{
+    int res = err;
+    err = 0;
+    return res;
+}
+
+inline void clear_err(){ err = 0; }
 
 } // namespace arr
 
