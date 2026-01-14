@@ -36,8 +36,6 @@ builds/
 *.out
 *.app
 
-tlbx.xcodeproj/xcuserdata/phil3.xcuserdatad/*
-tlbx/
 
 # Third-party dependencies
 /googletest/
