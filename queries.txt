@@ -1,0 +1,8 @@
+When I try to add my submodule using
+git submodule add https://github.com/SPAhrenTech/tlbx.git tlbx
+
+it says
+fatal: A git directory for 'tlbx' is found locally with remote(s):
+  origin        https://github.com/SPAhrenTech/tlbx.git
+
+But I can't find this repository locally. How can I remove it and re-add the submodule from the remote source?
