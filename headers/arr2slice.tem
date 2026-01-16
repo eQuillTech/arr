@@ -105,23 +105,13 @@ arr2<data_type>::arr2(const arr2slice<data_type>& A)
 template <class data_type>
 data_type &arr2slice<data_type>::at(const std::size_t i)
 {
-	data_type x;
-	if (_iDim == 0)
-		x = _a->at(_iIndex, i);
-	else
-		x = _a->at(i, _iIndex);
-	return x;
+	return (_iDim==0) ? _a->at(_iIndex, i) : _a->at(i, _iIndex);
 }
 
 template <class data_type>
 data_type const &arr2slice<data_type>::at(const std::size_t i) const
 {
-	data_type x;
-	if (_iDim == 0)
-		x = _a->at(_iIndex, i);
-	else
-		x = _a->at(i, _iIndex);
-	return x;
+	return (_iDim==0) ? _a->at(_iIndex, i) : _a->at(i, _iIndex);
 }
 
 template <class data_type>
