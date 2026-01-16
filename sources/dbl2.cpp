@@ -865,7 +865,9 @@ dbl2 dbl2::rowEschelon() const
             for (size_t k = 0; k < _nRows; k++) {
                 if (k != i) {
                     double fac = A(k, i);
-                    A.row(k) -= fac * A.row(i);
+                    auto r = A.row(i);
+                    auto fr = fac * r;
+                    A.row(k) -= fr;
                     A(k, i) = 0.;
                 }
             }
@@ -975,14 +977,14 @@ dbl2 dbl2::sqrt() const { return pwr(0.5); }
 dbl2 dbl2::zero() { return *this = dbl2::zero(_nRows, _nCols); }
 dbl2 dbl2::ident() { return *this = dbl2::ident(_nRows, _nCols); }
 
-dbl2 dbl2::operator+() const { return +dbl2(*this); }
-dbl2 dbl2::operator-() const { return -dbl2(*this); }
-dbl2 dbl2::operator+(const dbl2 &A) const { return dbl2(*this) + A; }
-dbl2 dbl2::operator-(const dbl2 &A) const { return dbl2(*this) - A; }
+dbl2 dbl2::operator+() const { return *this; }
+dbl2 dbl2::operator-() const { return -1.*(*this); }
+dbl2 dbl2::operator+(const dbl2 &A) const { return *this + A; }
+dbl2 dbl2::operator-(const dbl2 &A) const { return *this - A; }
 
-dbl2slice dbl2::slice(const std::size_t iDim, const std::size_t iIndex) { return dbl2slice(this, iDim, iIndex); }
-dbl2slice dbl2::row(const std::size_t iIndex) { return dbl2slice(this, 0, iIndex); }
-dbl2slice dbl2::col(const std::size_t iIndex) { return dbl2slice(this, 1, iIndex); }
+dbl2slice dbl2::slice(const std::size_t iDim, const std::size_t iIndex) { return {this, iDim, iIndex}; }
+dbl2slice dbl2::row(const std::size_t iIndex) { return {this, 0, iIndex}; }
+dbl2slice dbl2::col(const std::size_t iIndex) { return {this, 1, iIndex}; }
 
 dbl2::dbl2(const dbl2sub &A):double_arr2(A){}
 

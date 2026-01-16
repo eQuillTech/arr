@@ -25,7 +25,7 @@ void example1(){
 		for(std::size_t j=0;j<M.size(1);++j)
 			M(i,j)=mth::random();
 	
-	//std::cout<<M.rowEschelon()<<"\n";
+	std::cout<<M.rowEschelon()<<"\n";
 	
 	arr::dbl2 V;
 	arr::dbl2 S=(M*M.T()).diagSymm(V);
