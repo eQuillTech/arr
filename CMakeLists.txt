@@ -34,10 +34,8 @@ set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
 target_link_libraries(${PROJECT_NAME} PRIVATE tlbx)
 
 # submodules
-if(${CMAKE_PROJECT_NAME} STREQUAL ${PROJECT_NAME})
-    add_subdirectory(tlbx)
-    add_subdirectory(examples)
-endif()
+add_subdirectory(${modules_dir}tlbx)
+add_subdirectory(${modules_dir}examples)
 
 option(${PROJECT_NAME}_BUILD_TESTING "Build the testing tree" ON)
 
