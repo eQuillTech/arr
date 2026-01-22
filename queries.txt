@@ -32,3 +32,7 @@ Do I need to set ${PROJECT_NAME}, as in ./CMakeLists.txt and ./tlbx/CMakeLists.t
 I want the path to googletest to depend whether tlbx is the main project, or a submodule.
 If tlbx is a submodule (e.g., of arr), I don't want to "add_subdirectory(googletest)" within ./tlbx/CMakeLists.txt.
 Is there a way to do that?
+
+In CMakeList.txt, if (${CMAKE_PROJECT_NAME} STREQUAL ${PROJECT_NAME}) is TRUE,
+or submodule "tlbx" is notused by ${CMAKE_PROJECT_NAME}, I want to call "add_subdirectory(tlbx)".
+Can I do that?
