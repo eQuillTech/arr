@@ -29,6 +29,9 @@ else()
     set(modules_dir "${CMAKE_SOURCE_DIR}/")
 endif()
 
+# Enable folder organization in IDEs
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR} ${PROJECT_SOURCE_DIR}/core
     ${PROJECT_SOURCE_DIR} ${PROJECT_SOURCE_DIR}/headers

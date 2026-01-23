@@ -6,6 +6,12 @@ set(example_sources
 		
 add_executable(${PROJECT_NAME}_examples ${example_sources})
 target_include_directories(${PROJECT_NAME}_examples PRIVATE ${CMAKE_SOURCE_DIR}/tlbx)
+
+set_target_properties(${PROJECT_NAME}_examples PROPERTIES
+    LINKER_LANGUAGE CXX
+    FOLDER ${PROJECT_NAME}
+)
+
 target_link_libraries(${PROJECT_NAME}_examples PUBLIC ${PROJECT_NAME})
 
 target_compile_features(${PROJECT_NAME}_examples PRIVATE cxx_std_17)

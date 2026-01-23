@@ -36,3 +36,5 @@ Is there a way to do that?
 In CMakeList.txt, if (${CMAKE_PROJECT_NAME} STREQUAL ${PROJECT_NAME}) is TRUE,
 or submodule "tlbx" is notused by ${CMAKE_PROJECT_NAME}, I want to call "add_subdirectory(tlbx)".
 Can I do that?
+
+I want CMake to put the targets "arr_tests" and "arr_examples" inside the "arr" folder/category.
