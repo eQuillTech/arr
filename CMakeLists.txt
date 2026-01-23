@@ -29,6 +29,11 @@ else()
     set(modules_dir "${CMAKE_SOURCE_DIR}/")
 endif()
 
+# submodules - initialize before using targets
+if(${CMAKE_PROJECT_NAME} STREQUAL ${PROJECT_NAME} OR NOT TARGET tlbx)
+    add_subdirectory(tlbx)
+endif()
+
 # Enable folder organization in IDEs
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
@@ -42,11 +47,6 @@ target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE tlbx)
-
-# submodules
-if(${CMAKE_PROJECT_NAME} STREQUAL ${PROJECT_NAME} OR NOT TARGET tlbx)
-    add_subdirectory(tlbx)
-endif()
 
 if(${CMAKE_PROJECT_NAME} STREQUAL ${PROJECT_NAME})
     add_subdirectory(examples)

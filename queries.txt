@@ -38,3 +38,9 @@ or submodule "tlbx" is notused by ${CMAKE_PROJECT_NAME}, I want to call "add_sub
 Can I do that?
 
 I want CMake to put the targets "arr_tests" and "arr_examples" inside the "arr" folder/category.
+
+How can I tell github actions to initalize the submodule "tlbx" before calling "add_subdirectory(tlbx)"?
+
+Can I determine if 
+if(${CMAKE_PROJECT_NAME} STREQUAL ${PROJECT_NAME} OR NOT TARGET tlbx)
+is TRUE before initializing the submodule "tlbx"?
