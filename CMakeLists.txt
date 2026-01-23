@@ -30,6 +30,7 @@ else()
 endif()
 
 target_include_directories(${PROJECT_NAME} PUBLIC
+    ${PROJECT_SOURCE_DIR} ${PROJECT_SOURCE_DIR}/core
     ${PROJECT_SOURCE_DIR} ${PROJECT_SOURCE_DIR}/headers
     ${modules_dir}tlbx ${modules_dir}tlbx/headers)
 
