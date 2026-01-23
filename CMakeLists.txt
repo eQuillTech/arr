@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.10) # required
 
 project(arr)  # project name
 		
-file(GLOB_RECURSE cpp_headers headers/*.hpp headers/*.tem)
-file(GLOB_RECURSE cpp_sources sources/*.cpp)
+file(GLOB_RECURSE cpp_headers CONFIGURE_DEPENDS headers/*.hpp headers/*.tem)
+file(GLOB_RECURSE cpp_sources CONFIGURE_DEPENDS sources/*.cpp)
 set(cpp_srcs ${PROJECT_NAME}.hpp ${cpp_headers} ${cpp_sources})
 
 # Organize files into groups for Xcode/Visual Studio
@@ -12,7 +12,7 @@ source_group("sources" FILES ${cpp_sources})
 source_group("" FILES ${PROJECT_NAME}.hpp)
 
 # Configure .tem files to be treated as C++ files
-file(GLOB tem_files headers/*.tem)
+file(GLOB tem_files CONFIGURE_DEPENDS headers/*.tem)
 #set_source_files_properties(${tem_files} PROPERTIES LANGUAGE CXX)
 
 add_library(${PROJECT_NAME} STATIC ${cpp_srcs})
