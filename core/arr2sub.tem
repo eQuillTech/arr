@@ -4,8 +4,8 @@
 #include <math.h>
 #include <iostream>
 
-#import "arr1.hpp"
-#import "arr2.hpp"
+#include "arr1.hpp"
+#include "arr2.hpp"
 
 namespace arr {
 
